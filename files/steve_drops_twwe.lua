@@ -11,10 +11,10 @@ function death( damage_type_bitfield, damage_message, entity_thats_responsible, 
         local perk = perk_spawn(x, y, perk_id, true)
         ("steve_drops_twwe mod: Spawning perk " .. perk_id)
 
-    if ( #players > 0 ) then
-        local player_id = players[1]
-        perk_pickup(perk, player_id, perk_id, false, false)
-    end
+        if ( #players > 0 ) then
+            local player_id = players[1]
+            perk_pickup(perk, player_id, perk_id, false, false)
+        end
 
     end
 end
