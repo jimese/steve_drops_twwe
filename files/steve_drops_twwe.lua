@@ -9,7 +9,7 @@ function death( damage_type_bitfield, damage_message, entity_thats_responsible, 
         local players = EntityGetWithTag( "player_unit" )
         local perk_id = "EDIT_WANDS_EVERYWHERE"
         local perk = perk_spawn(x, y, perk_id, true)
-        ("steve_drops_twwe mod: Spawning perk " .. perk_id)
+        print("steve_drops_twwe mod: Spawning perk " .. perk_id)
 
         if ( #players > 0 ) then
             local player_id = players[1]
