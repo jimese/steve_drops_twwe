@@ -7,10 +7,6 @@ end
 local mod_id = "steve_drops_twwe"
 mod_settings_version = 1
 
-
-
-
-
 mod_settings = 
 {
     {
